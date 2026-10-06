@@ -15,13 +15,16 @@ desktop, and more.
 
 ## Download
 Get the latest `.dmg` from the [**Releases**](../../releases/latest) page.
-Requires **macOS 15 (Sequoia)** or later. Builds are signed and notarized, so they open
-without a Gatekeeper warning.
+Requires a Mac with **Apple silicon** and **macOS 15 (Sequoia)** or later. Builds are
+signed and notarized, so they open without a Gatekeeper warning.
 
 ## Report a bug / request a feature
-Open an [**issue**](../../issues/new). In the app, *Help → „Feedback / Fehler melden…“*
-files here automatically with your version pre-filled.
+Open an [**issue**](../../issues/new). In the app, *Help → Feedback / Report a Problem…*
+(in German: *Feedback / Fehler melden …*) files here with your version pre-filled.
 
 ## Updates
-NEOS checks this repo for new releases and notifies you inside the app. It is
-**notify‑only** — nothing is downloaded or installed automatically.
+When it starts, NEOS looks here for a new release. If there is one, it downloads it in
+the background and checks it before offering it: the signature must be intact and the
+NEOS developer's, and the app inside must be the version the release announces.
+Installing then takes one click — NEOS never restarts behind your back. Both the check
+and the download can be switched off under *NEOS → Check for Updates…*.
